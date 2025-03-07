@@ -44,5 +44,66 @@
         </tr>
     </table>
 
+    
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+
+    <form>
+        <fieldset>
+
+            <legend>DATOS PERSONALES</legend>
+
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos">
+            <label>Dirección Postal:</label>
+            <input type="text" placeholder="Calle">
+            <input type="text" placeholder="N°">
+            <input type="text" placeholder="Piso">
+            <input type="text" placeholder="Cód.Postal">
+            <input type="text" placeholder="Ciudad">
+            <label>Nick:</label>
+            <input type="text" name="nick">
+            <label>Correo Electrónico:</label>
+            <input type="email" name="email">
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>SEXO USUARIO</legend>
+            <label><input type="radio" name="sexo-usuario" value="hombre"> Hombre</label>
+            <label><input type="radio" name="sexo-usuario" value="mujer"> Mujer</label>
+            <label><input type="radio" name="sexo-usuario" value="no-decidir"> Prefiero No Decir</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label>Fecha nacimiento:</label>
+            <input type="date" name="fecha_nacimiento">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>PERSONAJES</legend>
+            <label>Selecciona el personaje:</label>
+            <input type="text" name="personaje">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>COMENTARIOS</legend>
+            <textarea name="comentarios"></textarea>
+
+        </fieldset>
+
+        <button type="submit" class="boton">ENVIAR</button>
+        <button type="reset" class="boton">BORRAR</button>
+
+    </form>
+
 </body>
 </html>

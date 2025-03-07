@@ -61,3 +61,70 @@ span {
 
 /* formulario */
 
+
+
+h2 {
+    font-family: 'Street';
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 5px;
+}
+
+legend {
+    font-family: 'Street';
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+textarea {
+    width: 560px;
+    height: 200px;
+}
+
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street';
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    border: 1px solid crimson;
+    background-color: grey;
+    font-family: 'Street';
+    color: crimson;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
